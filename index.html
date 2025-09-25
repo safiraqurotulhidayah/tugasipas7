@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tanaman Di SMKN 10 Semarang</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Times New Roman', Times, serif, sans-serif;
+      background-color: #ba5151f7;
+      color: #9e0a0a;
+    }
+
+    header {
+      background-color: #87030e;
+      color: rgb(253, 249, 249);
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(82, 3, 3, 0.975);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background-color: rgb(251, 249, 249);
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgb(114, 7, 7);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card .info {
+      padding: 1rem;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      background-color: #790505;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1> Tanaman Di Sekitar SMKN 10 Semarang</h1>
+  </header>
+
+  <div class="container">
+    <a href="bromeliagiant.html" class="card">
+      <img src="bromelia..jpg" alt="Bromelia Giant">
+      <div class="info">Bromelia Giant</div>
+    </a>
+
+    <a href="agave.html" class="card">
+      <img src="agave.jpg" alt="Agave Americana">
+      <div class="info">Agave Americana</div>
+    </a>
+
+    <a href="pucukmerah.html" class="card">
+      <img src="pucuk merah.jpg" alt="Pucuk Merah">
+      <div class="info">Pucuk Merah</div>
+    </a>
+
+    <a href="lidah.html" class="card">
+      <img src="lidah mertua.jpg" alt="Lidah Mertua">
+      <div class="info">Lidah Mertua</div>
+    </a>
+
+    <a href="brokolii.html" class="card">
+      <img src="Brokoli.jpg" alt="Brokoli Kuning">
+      <div class="info">Brokoli Kuning</div>
+    </a>
+
+    <a href="rhoeo.html" class="card">
+      <img src="yeye.jpg" alt="Adam Hawa">
+      <div class="info">Adam Hawa (Rhoeo Discolor)</div>
+    </a>
+    <a href="nangka.html" class="card">
+      <img src="nagka mini.jpg" alt="Nangka Muda">
+      <div class="info">Nangka Muda (Artocarpus Heterophyllus) </div>
+    </a>
+  </div>
+
+  <footer>
+    Tugas Ipas Kelompok 7
+  </footer>
+
+</body>
+</html>
